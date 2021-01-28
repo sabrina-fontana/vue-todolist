@@ -20,6 +20,7 @@
         <button @click="submit">Aggiungi</button>
       </div>
 
+      <!-- v-if -> se arrayInput ha almeno un elemento mostro il div, altrimenti no -->
       <div class="list-container" v-if="arrayInput.length > 0">
         <div class="list" v-for="(element, index) in arrayInput">
           {{element}}

@@ -6,7 +6,7 @@ data: {
 },
 methods: {
   submit: function() {
-    if (this.input.length !== 0 && this.input !== '') {
+    if (this.input.length !== 0 && this.input !== ' ') {
       this.arrayInput.push(this.input);
       this.input= '';
     }
