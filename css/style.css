@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, input {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+#root {
+  margin: 0 auto;
+  width: 600px;
+}
+
+img {
+  display: block;
+  width: 70%;
+  margin: 40px auto 0 auto;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+ input, button {
+   padding: 10px 20px;
+   border-radius: 15px;
+   font-size: 18px;
+   outline: none;
+   border-color: #ccc;
+ }
+
+ button {
+   cursor: pointer;
+   font-family: 'Libre Franklin', sans-serif;
+ }
+
+ .input-text {
+   width: 75%;
+ }
+
+ .list-container {
+   background-color: #f5f7f7;
+   width: 100%;
+   padding: 40px;
+   border-radius: 15px;
+ }
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  padding: 10px 0;
+  border-bottom: 2px solid #ccc;
+}
+
+.list i {
+  font-size: 26px;
+  cursor: pointer;
+}
